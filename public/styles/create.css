@@ -1,0 +1,54 @@
+
+		/* Add some basic styling to make the form look decent */
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+AR:wght@100..400&display=swap');        
+		body {
+			font-family: "Lato", sans-serif;
+		}
+        .navbar-nav{
+            margin-left: 80px;
+            margin-bottom: 0;
+            }
+        .nav-link{
+            font-size: 19px;
+            margin: 10px;
+        }
+        .heading{
+            text-align: center;
+        }
+		.cr{
+			width: 50%;
+			margin: 40px auto;
+			padding: 20px;
+            
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input, textarea {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+		}
+		textarea {
+			height: 300px; /* Set the height to 30 rows */
+			resize: vertical; /* Allow the user to resize the textarea vertically */
+		}
+		.boton {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.boton:hover {
+			background-color: #3e8e41;
+		}
+        #name,#isbn,#description,#author,#rating{
+            max-width: 730px;
+        }

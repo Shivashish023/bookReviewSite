@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+AR:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+nav{
+    font-family: "Lato", sans-serif;
+}
+.navbar-nav{
+    margin-left: 80px;
+    margin-bottom: 0;
+    }
+.nav-link{
+    font-size: 19px;
+    margin: 10px;
+}
+.sort-but{
+    float: right;
+    margin-right: 100px;
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:auto;
+    justify-content: center;
+   align-items: center;
+    gap: 100px;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 100px;
+}
+.img-box img{
+    height: 350px;
+    border: 5px double  ;
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+}
+.button-box{
+    justify-content: right;
+}
+.sort-but{
+
+    background-color: darkgrey;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sort-but:hover {
+    background-color: grey;
+  }
+
+@media(max-width:1000px){
+    .main-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        font-family: "Libre Baskerville", serif;
+        gap: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+}
